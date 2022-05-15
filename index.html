@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DoctorCare</title>
 
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/style.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,7 +17,7 @@
   <body onscroll="onScroll()">
     <nav id="navigation">
       <div class="wrapper">
-        <a class="logo" href="#">
+        <a class="logo" href="#home">
           <svg
             width="133"
             height="18"
@@ -72,13 +72,14 @@
           <ul>
             <li><a onclick="closeMenu()" href="#home">Início</a></li>
             <li><a onclick="closeMenu()" href="#services">Serviços</a></li>
-            <li><a onclick="closeMenu()" href="#">Sobre</a></li>
+            <li><a onclick="closeMenu()" href="#about">Sobre</a></li>
           </ul>
 
-          <a class="button" href="#">Agende Sua Consulta</a>
+          <a class="button" href="#">Agende sua consulta</a>
+
           <ul class="social-links">
             <li>
-              <a target="_blank" href="#"
+              <a target="_blank" href="https://instagram.com/maykbrito"
                 ><svg
                   width="24"
                   height="24"
@@ -111,8 +112,8 @@
               </a>
             </li>
             <li>
-              <a target="_blank" href="#"
-                ><svg
+              <a target="_blank" href="https://facebook.com/maykbrito">
+                <svg
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
@@ -130,8 +131,8 @@
               </a>
             </li>
             <li>
-              <a target="_blank" href="#"
-                ><svg
+              <a target="_blank" href="https://youtube.com/maykbrito">
+                <svg
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
@@ -225,7 +226,7 @@
           <h4>BOAS-VINDAS A DOCTORCARE 👋</h4>
           <h1>Assistência médica simplificada para todos</h1>
         </header>
-        
+
         <div class="content">
           <p>
             Os médicos da DoctorCare vão além dos sintomas para tratar a causa
@@ -259,10 +260,12 @@
             <h3>+3.500</h3>
             <p>Pacientes atendidos</p>
           </div>
+
           <div class="stat">
             <h3>+15</h3>
             <p>Especialistas disponíveis</p>
           </div>
+
           <div class="stat">
             <h3>+10</h3>
             <p>Anos no mercado</p>
@@ -277,6 +280,7 @@
           <h4>Serviços</h4>
           <h2>Como podemos ajudá-lo a se sentir melhor?</h2>
         </header>
+
         <div class="content">
           <div class="cards">
             <div class="card">
@@ -296,6 +300,7 @@
                   stroke-linejoin="round"
                 />
               </svg>
+
               <h3>Problemas digestivos</h3>
               <p>
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
@@ -320,6 +325,7 @@
                   stroke-linejoin="round"
                 />
               </svg>
+
               <h3>Saúde Hormonal</h3>
               <p>
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
@@ -344,6 +350,7 @@
                   stroke-linejoin="round"
                 />
               </svg>
+
               <h3>Bem-estar mental</h3>
               <p>
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
@@ -368,6 +375,7 @@
                   stroke-linejoin="round"
                 />
               </svg>
+
               <h3>Cuidados Pediátricos</h3>
               <p>
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
@@ -392,6 +400,7 @@
                   stroke-linejoin="round"
                 />
               </svg>
+
               <h3>Autoimune e Inflamação</h3>
               <p>
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
@@ -416,6 +425,7 @@
                   stroke-linejoin="round"
                 />
               </svg>
+
               <h3>Saúde do Coração</h3>
               <p>
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
@@ -430,9 +440,10 @@
     <section id="about">
       <div class="wrapper">
         <header>
-          <h4>SOBRE NÓS</h4>
+          <h4>Sobre nós</h4>
           <h2>Entenda quem somos e por que existimos</h2>
         </header>
+
         <div class="content">
           <p>
             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
@@ -446,14 +457,14 @@
           </p>
 
           <img
-            src="/assets/happy-doctor-holding-a-clipboard-with-patients.png"
-            alt="Doutor feliz com paciente"
+            src="assets/doutor-feliz-segurando-prancheta-com-pacientes.png"
+            alt="Doutor feliz segurando prancheta com pacientes"
           />
         </div>
       </div>
     </section>
 
-    <!-- ScrollReaveal Lib-->
+    <!-- ScrollReaveal Lib -->
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="main.js"></script>
   </body>
